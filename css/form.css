@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #293d5b;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formInner {
+  background-color: #fff;
+  width: 100%;
+  max-width: 700px;
+  padding: 3rem;
+  border-radius: 30px;
+  background: rgba(135, 135, 135, 0.2);
+  box-shadow: -54.71999740600586px 54.71999740600586px 54.71999740600586px 0px
+      rgba(255, 255, 255, 0.1) inset,
+    54.71999740600586px -54.71999740600586px 54.71999740600586px 0px rgba(
+        165,
+        165,
+        165,
+        0.1
+      ) inset;
+  backdrop-filter: blur(17.100000381469727px);
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.formButton {
+  background-color: #00559e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.formButton.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.formButton img {
+  margin-right: 10px;
+  width: 20px;
+  pointer-events: none;
+}
+
+.formButton.continue img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.formButton:hover {
+  background-color: #004a8d;
+}
+
+.formQuestion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formQuestionHeading {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.formQuestionDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.formAnswersGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.formAnswersLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formAnswerSquare {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formAnswerSquare.hidden {
+  display: none;
+  pointer-events: none;
+}
+
+.formAnswerSquare label {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.formAnswerSquare label .radioButton {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 9px;
+  outline: #00559e 0px solid;
+  transition: all 0.2s ease-in-out;
+}
+.formAnswerSquare label .radioButton h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+.formAnswerSquare label .radioButton svg {
+  width: 30px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  transition: fill 0.05s ease-in-out;
+  fill: #00559e;
+}
+
+.formAnswerSquare label:checked {
+  color: red;
+}
+
+.formAnswerSquare input {
+  display: none;
+}
+
+.formAnswerSquare label input:checked + .radioButton {
+  background-color: #00559e;
+  color: white;
+  fill: white;
+}
+.formAnswerSquare label input:checked + .radioButton svg {
+  fill: white;
+}
+
+.formAnswerInput {
+  display: flex;
+  width: 100%;
+}
+
+.formAnswerInput label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+.formAnswerInput h3 {
+  margin-bottom: 1rem;
+}
+.formAnswerInput textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.formAnswerInput input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.formAnswerInput.full {
+  grid-column: 1 / 3;
+}
+
+.formAnswersForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.formError {
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.formError.hidden {
+  display: none;
+  pointer-events: none;
+}
+
+.formThanks h2 {
+  color: white;
+  line-height: 125%;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-align: center;
+}

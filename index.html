@@ -1,12 +1,1011 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Fri Dec 11 2021 16:17:47 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="5fd22245747591605dd39d4f"
+  data-wf-site="5fcf851c9b13f9fbbc032b95"
+>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>Eco mag - Panneaux solaires</title>
+    <meta content="Formulaire" property="og:title" />
+    <meta content="Formulaire" property="twitter:title" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+     user-scalable=0"
+    />
+    <meta content="Webflow" name="generator" />
+    <link href="css/form.css" rel="stylesheet" type="text/css" />
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.png" rel="apple-touch-icon" />
   </head>
   <body>
-    Test
+    <div id="formInner">
+      <form class="formStep1" style="display: none">
+        <div class="formQuestion">
+          <h1 class="formQuestionHeading">Vous êtes ?</h1>
+          <div class="formQuestionDescription"></div>
+        </div>
+        <div class="formAnswersGrid">
+          <div class="formAnswerSquare">
+            <label for="bigCompany"
+              ><input
+                required
+                class="answer"
+                type="radio"
+                id="bigCompany"
+                name="identity"
+                value="bigCompany"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Une grande entreprise ou un grand groupe</h3>
+              </div>
+            </label>
+          </div>
+
+          <div class="formAnswerSquare">
+            <label for="mediumCompany"
+              ><input
+                required
+                class="answer"
+                type="radio"
+                id="mediumCompany"
+                name="identity"
+                value="mediumCompany"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Une entreprise de taille intermédiaire</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare">
+            <label for="pme"
+              ><input
+                required
+                class="answer"
+                type="radio"
+                id="pme"
+                name="identity"
+                value="pme"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Une petite ou moyenne entreprise</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare">
+            <label for="startuper"
+              ><input
+                required
+                class="answer"
+                type="radio"
+                id="startuper"
+                name="identity"
+                value="startuper"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Un entrepreneur ou startuper</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare">
+            <label for="commerce">
+              <input
+                required
+                class="answer"
+                type="radio"
+                id="commerce"
+                name="identity"
+                value="commerce"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Un restaurateur, hôtelier, commerçant</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare">
+            <label for="association"
+              ><input
+                required
+                class="answer"
+                type="radio"
+                id="association"
+                name="identity"
+                value="association"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Une association</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare">
+            <label for="publicOrganism"
+              ><input
+                required
+                class="answer"
+                type="radio"
+                id="publicOrganism"
+                name="identity"
+                value="publicOrganism"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Un organisme public</h3>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="formButtons">
+          <button type="button" class="formButton hide previous">
+            <img
+              src="./images/arrow-left-solid.svg"
+              alt="Flèche vers la gauche"
+            />
+            Précédent
+          </button>
+          <button type="button" class="formButton continue">
+            Suivant
+            <img
+              src="./images/arrow-right-solid.svg"
+              alt="Flèche vers la droite"
+            />
+          </button>
+        </div>
+        <div class="formError hidden">
+          <p>Veuillez sélectionner une réponse pour continuer.</p>
+        </div>
+      </form>
+      <form class="formStep2" style="display: none">
+        <div class="formQuestion">
+          <h1 class="formQuestionHeading">
+            Vous souhaitez avoir recours à une expertise externe pour :
+          </h1>
+          <div class="formQuestionDescription"></div>
+        </div>
+        <div class="formAnswersGrid">
+          <div class="formAnswerSquare hidden">
+            <label for="newProduct"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="newProduct"
+                name="services"
+                value="newProduct"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Lancer votre entreprise, un nouveau produit ou service</h3>
+              </div>
+            </label>
+          </div>
+
+          <div class="formAnswerSquare hidden">
+            <label for="marketResearch"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="marketResearch"
+                name="services"
+                value="marketResearch"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Réaliser une étude de marché</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="businessPlan"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="businessPlan"
+                name="services"
+                value="businessPlan"
+                data-identity="pme,startuper,commerce"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Réaliser un business plan</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="competitorAnalysis"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="competitorAnalysis"
+                name="services"
+                value="competitorAnalysis"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Etudier vos concurrents</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="clientSatisfaction"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="clientSatisfaction"
+                name="services"
+                value="clientSatisfaction"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Evaluer la satisfaction de vos clients</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden stakeholderSatisfaction">
+            <label for="stakeholderSatisfaction">
+              <input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="stakeholderSatisfaction"
+                name="services"
+                value="stakeholderSatisfaction"
+                data-identity="association"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Evaluer la satisfaction de vos parties prenantes</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="collaboratorsSatisfaction">
+              <input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="collaboratorsSatisfaction"
+                name="services"
+                value="collaboratorsSatisfaction"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Evaluer la satisfaction de vos collaborateurs</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="communicationSeo"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="communicationSeo"
+                name="services"
+                value="communicationSeo"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Campagne marketing / communication / référencement</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="rse"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="rse"
+                name="services"
+                value="rse"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Lancer une stratégie RSE</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="other"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="other"
+                name="services"
+                value="other"
+                data-identity="*"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>Autre</h3>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="formButtons">
+          <button type="button" class="formButton previous">
+            <img
+              src="./images/arrow-left-solid.svg"
+              alt="Flèche vers la gauche"
+            />
+            Précédent
+          </button>
+          <button type="button" class="formButton continue">
+            Suivant
+            <img
+              src="./images/arrow-right-solid.svg"
+              alt="Flèche vers la droite"
+            />
+          </button>
+        </div>
+        <div class="formError hidden">
+          <p>Veuillez sélectionner au moins une réponse pour continuer.</p>
+        </div>
+      </form>
+      <form class="formStep3" style="display: none">
+        <div class="formQuestion">
+          <h1 class="formQuestionHeading">Ainsi vous avez besoin :</h1>
+          <div class="formQuestionDescription"></div>
+        </div>
+        <div class="formAnswersGrid">
+          <div class="formAnswerSquare hidden">
+            <label for="market"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="market"
+                name="needs"
+                value="market"
+                data-identity="*"
+                data-services="newProduct,marketResearch"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De connaître et comprendre votre nouveau marché</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="profitability"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="profitability"
+                name="needs"
+                value="profitability"
+                data-identity="*"
+                data-services="newProduct,businessPlan"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>
+                  D’estimer la rentabilité du projet via un prévisionnel
+                  financier externe à votre entreprise
+                </h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="benchmark"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="benchmark"
+                name="needs"
+                value="benchmark"
+                data-identity="bigCompany,mediumCompany,association"
+                data-services="newProduct,competitorAnalysis"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De réaliser un benchmark concurrentiel</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="actionPlan"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="actionPlan"
+                name="needs"
+                value="actionPlan"
+                data-identity="bigCompany,mediumCompany,association,publicOrganism"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De réaliser un plan d’action</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="clientsReviews"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="clientsReviews"
+                name="needs"
+                value="clientsReviews"
+                data-identity="*"
+                data-services="newProduct,marketResearch"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De connaître l’avis des clients cibles</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="goToMarket"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="goToMarket"
+                name="needs"
+                value="goToMarket"
+                data-identity="bigCompany,mediumCompany,pme,association,publicOrganism"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De réaliser une stratégie go-to-market</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="companyPurchase"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="companyPurchase"
+                name="needs"
+                value="companyPurchase"
+                data-identity="bigCompany,mediumCompany,pme,publicOrganism"
+                data-services="marketResearch,competitorAnalysis"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>
+                  De comprendre un secteur dans l’optique d’effectuer un rachat
+                  d’entreprise (M&A)
+                </h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="commercePurchase"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="commercePurchase"
+                name="needs"
+                value="commercePurchase"
+                data-identity="pme,startuper,commerce"
+                data-services="businessPlan"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>
+                  De comprendre un secteur dans l’optique d’effectuer un rachat
+                  d’une agence, usine, restaurant, hôtel, ou commerce.
+                </h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="quantitativeStudy"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="quantitativeStudy"
+                name="needs"
+                value="quantitativeStudy"
+                data-identity="*"
+                data-services="stakeholderSatisfaction,clientSatisfaction,collaboratorsSatisfaction"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>
+                  De réaliser une étude quantitative (sondage à grande échelle)
+                </h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="qualitativeStudy"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="qualitativeStudy"
+                name="needs"
+                value="qualitativeStudy"
+                data-identity="*"
+                data-services="stakeholderSatisfaction,clientSatisfaction,collaboratorsSatisfaction"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De réaliser une étude qualitative</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="businessPlan"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="businessPlan"
+                name="needs"
+                value="businessPlan"
+                data-identity="pme,startuper,commerce"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De réaliser un Business Plan</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="competitorStrategy"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="competitorStrategy"
+                name="needs"
+                value="competitorStrategy"
+                data-identity="pme,startuper,commerce"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De connaître vos concurrents et leur stratégie</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="stakeholdersFinancial"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="stakeholdersFinancial"
+                name="needs"
+                value="stakeholdersFinancial"
+                data-identity="startuper,commerce"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>
+                  De convaincre vos parties prenantes de financer votre projet
+                </h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="marketingStrategy"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="marketingStrategy"
+                name="needs"
+                value="marketingStrategy"
+                data-identity="startuper,commerce"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>De réaliser une stratégie marketing et de ventes</h3>
+              </div>
+            </label>
+          </div>
+          <div class="formAnswerSquare hidden">
+            <label for="pitchDeck"
+              ><input
+                required
+                class="answer noContinue"
+                type="checkbox"
+                id="pitchDeck"
+                name="needs"
+                value="pitchDeck"
+                data-identity="startuper"
+                data-services="newProduct"
+              />
+              <div class="radioButton">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path
+                    d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                  />
+                </svg> -->
+                <h3>D’un pitch deck</h3>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="formButtons">
+          <button type="button" class="formButton previous">
+            <img
+              src="./images/arrow-left-solid.svg"
+              alt="Flèche vers la gauche"
+            />
+            Précédent
+          </button>
+          <button type="button" class="formButton continue">
+            Suivant
+            <img
+              src="./images/arrow-right-solid.svg"
+              alt="Flèche vers la droite"
+            />
+          </button>
+        </div>
+        <div class="formError hidden">
+          <p>Veuillez sélectionner au moins une réponse pour continuer.</p>
+        </div>
+      </form>
+      <form class="formStep4" style="display: none">
+        <div class="formQuestion">
+          <h1 class="formQuestionHeading">Vos informations :</h1>
+          <div class="formQuestionDescription"></div>
+        </div>
+        <div class="formAnswerInput">
+          <label for="message">
+            <h3>Décrivez votre besoin dans les grandes lignes</h3>
+
+            <textarea
+              type="textarea"
+              class="answer noContinue"
+              id="message"
+              name="message"
+              line
+              rows="5"
+            ></textarea>
+          </label>
+        </div>
+        <div class="formButtons">
+          <button type="button" class="formButton previous">
+            <img
+              src="./images/arrow-left-solid.svg"
+              alt="Flèche vers la gauche"
+            />
+            Précédent
+          </button>
+          <button type="button" class="formButton continue">
+            Suivant
+            <img
+              src="./images/arrow-right-solid.svg"
+              alt="Flèche vers la droite"
+            />
+          </button>
+        </div>
+      </form>
+      <form class="formStep5" style="display: none">
+        <div class="formQuestion">
+          <h1 class="formQuestionHeading">Vos informations :</h1>
+          <div class="formQuestionDescription"></div>
+        </div>
+        <div class="formAnswersForm">
+          <div class="formAnswerInput">
+            <label for="firstname">
+              <h3>Prénom</h3>
+              <input
+                type="text"
+                autocomplete="given-name"
+                required
+                class="answer noContinue"
+                id="firstname"
+                name="firstname"
+                line
+                rows="4"
+              />
+            </label>
+          </div>
+          <div class="formAnswerInput">
+            <label for="lastname">
+              <h3>Nom</h3>
+              <input
+                type="text"
+                autocomplete="family-name"
+                required
+                class="answer noContinue"
+                id="lastname"
+                name="lastname"
+                line
+                rows="4"
+              />
+            </label>
+          </div>
+          <div class="formAnswerInput">
+            <label for="phone">
+              <h3>Téléphone</h3>
+              <input
+                type="tel"
+                autocomplete="tel"
+                required
+                class="answer noContinue"
+                id="phone"
+                name="phone"
+                line
+                rows="4"
+              />
+            </label>
+          </div>
+          <div class="formAnswerInput">
+            <label for="mail">
+              <h3>Mail</h3>
+              <input
+                type="email"
+                autocomplete="email"
+                required
+                class="answer noContinue"
+                id="mail"
+                name="mail"
+                line
+                rows="4"
+              />
+            </label>
+          </div>
+          <div class="formAnswerInput full">
+            <label for="company">
+              <h3>Entreprise</h3>
+              <input
+                type="text"
+                autocomplete="organization"
+                required
+                class="answer noContinue"
+                id="company"
+                name="company"
+                line
+                rows="4"
+              />
+            </label>
+          </div>
+          <div class="formAnswerInput full">
+            <label for="knowBy">
+              <h3>Vous nous connaissez par ?</h3>
+              <input
+                type="text"
+                required
+                class="answer noContinue"
+                id="knowBy"
+                name="knowBy"
+                line
+                rows="4"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="formButtons">
+          <button type="button" class="formButton previous">
+            <img
+              src="./images/arrow-left-solid.svg"
+              alt="Flèche vers la gauche"
+            />
+            Précédent
+          </button>
+          <button type="button" class="formButton continue">
+            Suivant
+            <img
+              src="./images/arrow-right-solid.svg"
+              alt="Flèche vers la droite"
+            />
+          </button>
+        </div>
+        <div class="formError hidden">
+          <p>
+            Veuillez remplir tous les champs et vérifier vos réponses pour
+            continuer.
+          </p>
+        </div>
+      </form>
+      <form class="formStep6" style="display: none">
+        <div class="formQuestion">
+          <h1 class="formQuestionHeading">Vos informations :</h1>
+          <div class="formQuestionDescription"></div>
+        </div>
+        <div class="formAnswersForm">
+          <div class="formAnswerInput full">
+            <label for="budget">
+              <h3>Avez vous un budget prédéfini ?</h3>
+              <input
+                type="text"
+                class="answer noContinue"
+                id="budget"
+                name="budget"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="formButtons">
+          <button type="button" class="formButton previous">
+            <img
+              src="./images/arrow-left-solid.svg"
+              alt="Flèche vers la gauche"
+            />
+            Précédent
+          </button>
+          <button type="submit" class="formButton continue">
+            Suivant
+            <img
+              src="./images/arrow-right-solid.svg"
+              alt="Flèche vers la droite"
+            />
+          </button>
+        </div>
+      </form>
+      <form class="formStep7">
+        <div class="formThanks">
+          <h2>
+            Merci ! Votre demande a été reçue et sera traitée par un chef de
+            projet habilité de SKEMA Conseil. Il prendra contact avec vous dans
+            un délai maximal de 24 heures.
+          </h2>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/form.js" type="text/javascript"></script>
   </body>
 </html>
